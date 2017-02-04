@@ -2,15 +2,22 @@ body > .container{
 	padding-top: 60px;
 }
 
+p {
+	color : black;
+}
+
+/*--footer--*/
 footer{
 	background:black;
 	position:absolute;
 	bottom:0;
 	width:100%;
+	margin :0 auto;
 	padding-top:50px;
 	height:50px;
 }
-
-p {
-	color : black;
-}
+footer ul {
+	list-style: none;
+	width: 100%;
+	padding-top: 5px;
+} 
