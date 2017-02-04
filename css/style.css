@@ -1,7 +1,4 @@
 ul {
-    position : fixed;
-	top : 0;
-	width : 100%
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -23,27 +20,6 @@ li a {
 
 li a:hover {
     background-color: black;
-}
-
-
-
-
-
-
-
-
-body {
-	background-color: lightblue;
-}
-
-h1 {
-	style : bold;
-   	color: purple;
-   	text-align: center;
-}
-
-p{
-	color : white;
 }
 
 
