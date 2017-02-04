@@ -6,27 +6,13 @@ p {
 	color : black;
 }
 
-/*--footer--
+/*--footer--*/
 footer{
-	background:black;
+	background:purple;
 	position:absolute;
 	bottom:0;
 	width:100%;
 	margin :0 auto;
 	padding-top:50px;
 	height:50px;
-}*/
-#footer {
-   	position: absolute;
-    	bottom: 0;
-	width:100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background: black;
-	border-top: 2px solid grey;
-	color: white;
-	position:absolute;
-	padding-top:10px;
-	height:50px
 }
