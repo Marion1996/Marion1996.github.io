@@ -1,21 +1,8 @@
-p {
-	color : black;
+body > .container{
+	padding-top: 60px;
 }
 
 
-footer {
-	
-    	text-decoration: overline;
-   	position: fixed;
-    	bottom: 0;
-	width:100%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background: black;
-	border-top: 2px solid grey;
-	color: grey;
-	position:absolute;
-	padding-top:50px;
-	height:1px
+p {
+	color : black;
 }
