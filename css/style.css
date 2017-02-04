@@ -6,10 +6,13 @@ p {
 	color : black;
 }
 
-/*Icon : fontawesome */
+/*--Icon : fontawesome--*/
 .fa-bitcoin:before,
 .fa-btc:before {
   content: "\f15a";
+}
+fa fa-btc{
+	color : white; 
 }
 
 /*--footer--*/
@@ -29,6 +32,6 @@ footer {
 }
 footer p{
 	display: block;
-	color: white;
-	text-align: left;
+	color: grey;
+	text-align: right;
 }
