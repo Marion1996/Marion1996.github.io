@@ -6,13 +6,6 @@ p {
 	color : black;
 }
 
-.navbar-collapse collapse a {
-    padding: 16px;
-    display: block;
-    color: white;
-    font-size: 36px;
-}
-
 
 
 /*--footer--*/
@@ -29,4 +22,9 @@ footer {
 	position:absolute;
 	padding-top:10px;
 	height:50px
+}
+footer p{
+	display: block;
+	color: white;
+	text-align: left;
 }
