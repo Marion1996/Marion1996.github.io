@@ -17,6 +17,7 @@ footer{
 	height:50px;
 }
 footer ul {
+	color : white;
 	list-style: none;
 	width: 100%;
 } 
