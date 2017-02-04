@@ -6,7 +6,7 @@ p {
 	color : black;
 }
 
-/*--footer--*/
+/*--footer--
 footer{
 	background:black;
 	position:absolute;
@@ -15,9 +15,18 @@ footer{
 	margin :0 auto;
 	padding-top:50px;
 	height:50px;
+}*/
+footer {
+    position: fixed;
+    bottom: 0;
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background: black;
+	border-top: 2px solid grey;
+	color: white;
+	position:absolute;
+	padding-top:10px;
+	height:50px
 }
-footer p {
-	color : white;
-	list-style: none;
-	width: 100%;
-} 
