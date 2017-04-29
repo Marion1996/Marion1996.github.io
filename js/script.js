@@ -21,7 +21,13 @@ xmlhttp.send();
 function homePageLoading() {
     url = 'https://api.blockcypher.com/v1/btc/main';
     elementID = 'bitcoin_info_number';
-    fonctionRequeteApi(url, elementID);
+    	fonctionRequeteApi(url, elementID);
+    elementID = 'bitcoin_block_number';
+	fonctionRequeteApi(url, elementID);
+    elementID = 'bitcoin_mining_number';
+	fonctionRequeteApi(url, elementID);
+    elementID = 'bitcoin_peer_number';
+	fonctionRequeteApi(url, elementID);
 	
     /*url = 'https://bitcoin.mubiz.com/blockchaininfo';
     elementID = 'bitcoin_block_number';
