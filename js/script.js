@@ -18,6 +18,9 @@ $(document).ready(function() {
 		success : function(data) {
 			$('#bitcoin_block_number').append(data.blocks);
 			$('#bitcoin_block_number').append(data.height);
+			
+			$('#bitcoin_info_number').append(data.name);
+			
       			$('#bitcoin_mining_number').append(data.time);
       			$('#bitcoin_peer_number').append(data.peer_count);
 		},
@@ -25,6 +28,9 @@ $(document).ready(function() {
 		error : function(xhr, status, err) {
 			$('#bitcoin_block_number').append(err+" N/A");
 			$('#bitcoin_block_number').append(err+" N/A");
+			
+			$('#bitcoin_info_number').append(err+" N/A");
+			
       			$('#bitcoin_mining_number').append(err+" N/A");
       			$('#bitcoin_peer_number').append(err+" N/A");
 		}
