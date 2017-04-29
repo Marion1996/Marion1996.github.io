@@ -8,7 +8,8 @@
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://api.blockcypher.com/v1/btc/main",
+		//url : "https://api.blockcypher.com/v1/btc/main",
+		url : "https://bitcoin.mubiz.com/info",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
