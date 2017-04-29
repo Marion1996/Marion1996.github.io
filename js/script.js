@@ -23,7 +23,7 @@ function homePageLoading() {
     elementID = 'bitcoin_info_number';
     fonctionRequeteApi(url, elementID);
 	
-    url = 'https://bitcoin.mubiz.com/blockchaininfo';
+    /*url = 'https://bitcoin.mubiz.com/blockchaininfo';
     elementID = 'bitcoin_block_number';
     fonctionRequeteApi(url, elementID);
 	
@@ -33,7 +33,7 @@ function homePageLoading() {
 	
     url = 'https://bitcoin.mubiz.com/peerinfo;
     elementID = 'bitcoin_peer_number';
-    fonctionRequeteApi(url, elementID);
+    fonctionRequeteApi(url, elementID);*/
 }
 
 
