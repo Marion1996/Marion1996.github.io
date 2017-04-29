@@ -17,8 +17,8 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.blocks);
-			//$('#bitcoin_block_number').append(data.height);
+			//$('#bitcoin_block_number').append(data.blocks);
+			$('#bitcoin_block_number').append(data.height);
 			
 			$('#bitcoin_info_number').append(data.name);
 			
