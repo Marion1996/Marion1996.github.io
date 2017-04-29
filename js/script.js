@@ -8,7 +8,7 @@
 
 $(document).ready(function() {
 	$.ajax({
-		url : "https://bitcoin.mubiz.com/info",
+		url : "https://api.blockcypher.com/v1/btc/main",
 		dataType : "json",
 		contentType : "application/json; charset=utf-8",
 		type : "GET",
@@ -16,7 +16,7 @@ $(document).ready(function() {
 		async : false,
 
 		success : function(data) {
-			$('#bitcoin_block_number').append(data.blocks);
+			//$('#bitcoin_block_number').append(data.blocks);
 			$('#bitcoin_block_number').append(data.height);
 			
 			$('#bitcoin_info_number').append(data.name);
@@ -26,7 +26,6 @@ $(document).ready(function() {
 		},
 
 		error : function(xhr, status, err) {
-			$('#bitcoin_block_number').append(err+" N/A");
 			$('#bitcoin_block_number').append(err+" N/A");
 			
 			$('#bitcoin_info_number').append(err+" N/A");
