@@ -6,6 +6,13 @@
  * 
  */
 
+function homePageLoading() {
+    url = 'apiUrl';
+    elementID = 'idDeVotreElementHtml';
+    fonctionRequeteApi(url, elementID);
+}
+
+
 $(document).ready(function() {
 	$.ajax({
 		url : "https://api.blockcypher.com/v1/btc/main",
