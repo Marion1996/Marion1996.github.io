@@ -42,6 +42,7 @@ function homePageLoading() {
     fonctionRequeteApi(url, elementID);*/
 }
 
+var isAddress = /^[0-9a-zA-Z]{34}$/.test(data);
 
 $(document).ready(function() {
 	$.ajax({
