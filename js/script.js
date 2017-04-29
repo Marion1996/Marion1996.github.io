@@ -19,7 +19,7 @@ xmlhttp.send();
 
 
 function homePageLoading() {
-    url = 'https://bitcoin.mubiz.com/info';
+    url = 'https://api.blockcypher.com/v1/btc/main';
     elementID = 'bitcoin_info_number';
     fonctionRequeteApi(url, elementID);
 	
